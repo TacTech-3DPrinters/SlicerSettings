@@ -1,0 +1,28 @@
+{
+    "from": "User",
+    "inherits": "Voron 2.4 350 0.4 nozzle",
+    "is_custom_defined": "0",
+    "machine_end_gcode": "END_PRINT",
+    "machine_max_acceleration_z": [
+        "250",
+        "200"
+    ],
+    "machine_start_gcode": "START_PRINT EXTRUDER_TEMP=[first_layer_temperature[initial_tool]] BED_TEMP=[first_layer_bed_temperature] FILAMENT_TYPE=[filament_type]",
+    "max_layer_height": [
+        "0.4"
+    ],
+    "min_layer_height": [
+        "0.12"
+    ],
+    "name": "Hazard Voron2.4",
+    "nozzle_diameter": [
+        "0.6"
+    ],
+    "print_host": "hazard.printer.alextac.com",
+    "printer_settings_id": "Hazard Voron2.4",
+    "printhost_apikey": "02893510d7444a7aa729c1c3a83aeec3",
+    "retraction_length": [
+        "0.4"
+    ],
+    "version": "1.5.1.2"
+}

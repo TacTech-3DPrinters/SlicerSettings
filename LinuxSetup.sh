@@ -44,3 +44,6 @@ symlink_config "PrusaSlicer" "$HOME/.config/PrusaSlicer"
 
 # PrusaSlicer Flatpak configs
 symlink_config "PrusaSlicer" "$HOME/.var/app/com.prusa3d.PrusaSlicer/config/PrusaSlicer"
+
+# OrcaSlicer configs
+symlink_config "OrcaSlicer" "$HOME/.config/OrcaSlicer"

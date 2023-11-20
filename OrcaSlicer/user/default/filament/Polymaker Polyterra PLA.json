@@ -1,0 +1,16 @@
+{
+    "filament_max_volumetric_speed": [
+        "20"
+    ],
+    "filament_settings_id": [
+        "Polymaker Polyterra PLA"
+    ],
+    "from": "User",
+    "inherits": "Voron Generic PLA",
+    "is_custom_defined": "0",
+    "name": "Polymaker Polyterra PLA",
+    "slow_down_layer_time": [
+        "0"
+    ],
+    "version": "1.6.5.2"
+}

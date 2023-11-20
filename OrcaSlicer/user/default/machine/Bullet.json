@@ -1,0 +1,32 @@
+{
+    "deretraction_speed": [
+        "0"
+    ],
+    "from": "User",
+    "inherits": "MyKlipper 0.4 nozzle",
+    "is_custom_defined": "0",
+    "machine_end_gcode": "END_PRINT",
+    "machine_start_gcode": "; Need this for slicer so it doesn't inject its own\nM104 S0 ; Hotend temperature\nM140 S0 ; Bed temperature\n\nSTART_PRINT BED_TEMP=[first_layer_bed_temperature] EXTRUDER_TEMP=[first_layer_temperature]\n\n;Starting Line\nG1 X2 Y10 F3000\nG1 Z0.28 F240\nG92 E0.0\nG1 X2.0 Y190 E15.0 F1500.0 ; intro line\nG1 X2.3 F5000\nG1 X2.3 Y10 E30 F1200.0 ; intro line\nG92 E0.0",
+    "max_layer_height": [
+        "0.4"
+    ],
+    "name": "Bullet",
+    "nozzle_diameter": [
+        "0.6"
+    ],
+    "print_host": "bullet.printer.alextac.com",
+    "printable_area": [
+        "3x3",
+        "228x3",
+        "228x228",
+        "3x228"
+    ],
+    "printer_settings_id": "Bullet",
+    "retraction_minimum_travel": [
+        "2"
+    ],
+    "retraction_speed": [
+        "60"
+    ],
+    "version": "1.5.1.2"
+}

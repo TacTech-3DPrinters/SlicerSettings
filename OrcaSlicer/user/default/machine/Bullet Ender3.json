@@ -1,0 +1,30 @@
+{
+    "deretraction_speed": [
+        "0"
+    ],
+    "from": "User",
+    "gcode_flavor": "klipper",
+    "inherits": "Creality Ender-3 V2 0.4 nozzle",
+    "is_custom_defined": "0",
+    "machine_end_gcode": "END_PRINT",
+    "machine_start_gcode": "START_PRINT BED_TEMP=[first_layer_bed_temperature] EXTRUDER_TEMP=[first_layer_temperature]",
+    "max_layer_height": [
+        "0.4"
+    ],
+    "min_layer_height": [
+        "0.12"
+    ],
+    "name": "Bullet Ender3",
+    "nozzle_diameter": [
+        "0.6"
+    ],
+    "printable_height": "200",
+    "printer_settings_id": "Bullet Ender3",
+    "retract_before_wipe": [
+        "0%"
+    ],
+    "retraction_length": [
+        "1"
+    ],
+    "version": "1.6.2.0"
+}

@@ -1,0 +1,538 @@
+2023-10-17 23:17:02.685904[Thread 0x00007f2d19c79ec0]:Update_dark_mode_flag: switch the current dark mode status to 0 
+2023-10-17 23:17:02.687735[Thread 0x00007f2d19c79ec0]:begin to show the splash screen...
+2023-10-17 23:17:02.704298[Thread 0x00007f2d19c79ec0]:loading systen presets...
+2023-10-17 23:17:02.707040[Thread 0x00007f2d19c79ec0]:[BBL Updater]:Checking whether the profile from resource is newer
+2023-10-17 23:17:02.707942[Thread 0x00007f2d19c79ec0]:Installing 2 bundles from resources ...
+2023-10-17 23:17:02.709494[Thread 0x00007f2d19c79ec0]:[BBL Updater]:Performing 8 updates
+2023-10-17 23:17:02.709501[Thread 0x00007f2d19c79ec0]:	Update(/tmp/.mount_OrcaSlG6xhDy/resources/profiles/Custom.json -> /home/alex/.config/OrcaSlicer/system/Custom.json)
+2023-10-17 23:17:02.715498[Thread 0x00007f2d19c79ec0]:	Update(/tmp/.mount_OrcaSlG6xhDy/resources/profiles/Custom/process -> /home/alex/.config/OrcaSlicer/system/Custom/process)
+2023-10-17 23:17:02.715502[Thread 0x00007f2d19c79ec0]:copy_directory_recursively "/tmp/.mount_OrcaSlG6xhDy/resources/profiles/Custom/process" -> "/home/alex/.config/OrcaSlicer/system/Custom/process"
+2023-10-17 23:17:02.729807[Thread 0x00007f2d19c79ec0]:	Update(/tmp/.mount_OrcaSlG6xhDy/resources/profiles/Custom/filament -> /home/alex/.config/OrcaSlicer/system/Custom/filament)
+2023-10-17 23:17:02.729812[Thread 0x00007f2d19c79ec0]:copy_directory_recursively "/tmp/.mount_OrcaSlG6xhDy/resources/profiles/Custom/filament" -> "/home/alex/.config/OrcaSlicer/system/Custom/filament"
+2023-10-17 23:17:02.747252[Thread 0x00007f2d19c79ec0]:	Update(/tmp/.mount_OrcaSlG6xhDy/resources/profiles/Custom/machine -> /home/alex/.config/OrcaSlicer/system/Custom/machine)
+2023-10-17 23:17:02.747256[Thread 0x00007f2d19c79ec0]:copy_directory_recursively "/tmp/.mount_OrcaSlG6xhDy/resources/profiles/Custom/machine" -> "/home/alex/.config/OrcaSlicer/system/Custom/machine"
+2023-10-17 23:17:02.752288[Thread 0x00007f2d19c79ec0]:	Update(/tmp/.mount_OrcaSlG6xhDy/resources/profiles/Voron.json -> /home/alex/.config/OrcaSlicer/system/Voron.json)
+2023-10-17 23:17:02.753769[Thread 0x00007f2d19c79ec0]:	Update(/tmp/.mount_OrcaSlG6xhDy/resources/profiles/Voron/process -> /home/alex/.config/OrcaSlicer/system/Voron/process)
+2023-10-17 23:17:02.753772[Thread 0x00007f2d19c79ec0]:copy_directory_recursively "/tmp/.mount_OrcaSlG6xhDy/resources/profiles/Voron/process" -> "/home/alex/.config/OrcaSlicer/system/Voron/process"
+2023-10-17 23:17:02.761087[Thread 0x00007f2d19c79ec0]:	Update(/tmp/.mount_OrcaSlG6xhDy/resources/profiles/Voron/filament -> /home/alex/.config/OrcaSlicer/system/Voron/filament)
+2023-10-17 23:17:02.761091[Thread 0x00007f2d19c79ec0]:copy_directory_recursively "/tmp/.mount_OrcaSlG6xhDy/resources/profiles/Voron/filament" -> "/home/alex/.config/OrcaSlicer/system/Voron/filament"
+2023-10-17 23:17:02.778179[Thread 0x00007f2d19c79ec0]:	Update(/tmp/.mount_OrcaSlG6xhDy/resources/profiles/Voron/machine -> /home/alex/.config/OrcaSlicer/system/Voron/machine)
+2023-10-17 23:17:02.778183[Thread 0x00007f2d19c79ec0]:copy_directory_recursively "/tmp/.mount_OrcaSlG6xhDy/resources/profiles/Voron/machine" -> "/home/alex/.config/OrcaSlicer/system/Voron/machine"
+2023-10-17 23:17:02.792446[Thread 0x00007f2d19c79ec0]:initialize_network_module, error, dlerror is /home/alex/.config/OrcaSlicer/plugins/libbambu_networking.so: cannot open shared object file: No such file or directory
+2023-10-17 23:17:02.792453[Thread 0x00007f2d19c79ec0]:initialize_network_module, can not Load Library for /home/alex/.config/OrcaSlicer/plugins/libbambu_networking.so
+2023-10-17 23:17:02.792456[Thread 0x00007f2d19c79ec0]:on_init_network: on_init_network, load dll failed
+2023-10-17 23:17:02.792458[Thread 0x00007f2d19c79ec0]:unload_network_module, network module 0
+2023-10-17 23:17:02.792460[Thread 0x00007f2d19c79ec0]:on_init_network, unload_network_module, result = 0
+2023-10-17 23:17:02.792462[Thread 0x00007f2d19c79ec0]:preset_folder: set to empty
+2023-10-17 23:17:02.792473[Thread 0x00007f2d19c79ec0]:load_presets enter, substitution_rule 3, preferred printer_model_id 
+2023-10-17 23:17:02.793901[Thread 0x00007f2d19c79ec0]:load_vendor_configs_from_json: parse /home/alex/.config/OrcaSlicer/system/Custom.json, got description:  "My configurations"
+2023-10-17 23:17:02.797356[Thread 0x00007f2d19c79ec0]:load_vendor_configs_from_json: parse /home/alex/.config/OrcaSlicer/system/Voron.json, got description:  "Voron configurations"
+2023-10-17 23:17:02.800556[Thread 0x00007f2d19c79ec0]:update_compatibility for all presets enter
+2023-10-17 23:17:02.800565[Thread 0x00007f2d19c79ec0]:update_compatibility for all presets exit
+2023-10-17 23:17:02.800567[Thread 0x00007f2d19c79ec0]:update_compatibility for all presets enter
+2023-10-17 23:17:02.800570[Thread 0x00007f2d19c79ec0]:update_compatibility for all presets exit
+2023-10-17 23:17:02.803663[Thread 0x00007f2d19c79ec0]:update_compatibility for all presets enter
+2023-10-17 23:17:02.803676[Thread 0x00007f2d19c79ec0]:update_compatibility for all presets exit
+2023-10-17 23:17:02.803678[Thread 0x00007f2d19c79ec0]:load_presets finished, returned substitutions 0
+2023-10-17 23:17:02.803681[Thread 0x00007f2d19c79ec0]:create the main window
+2023-10-17 23:17:02.835177[Thread 0x00007f2d19c79ec0]:CreateWebView: file:/tmp/.mount_OrcaSlG6xhDy/resources/web/homepage/index.html?lang=en_GB
+2023-10-17 23:17:02.902454[Thread 0x00007f2d19c79ec0]:select_technology: change the printer technology from 2 to 0
+2023-10-17 23:17:02.931832[Thread 0x00007f2d19c79ec0]:get_current_slice_result:m_current_plate 0, current_plate 0x55e43b1ffa00
+2023-10-17 23:17:02.942091[Thread 0x00007f2d19c79ec0]:set_current_panel: current_panel 0, new_panel 0x55e43b3dcab0
+2023-10-17 23:17:03.094964[Thread 0x00007f2d19c79ec0]:ImageGrid::SetStatus: No printers.
+2023-10-17 23:17:03.095982[Thread 0x00007f2d19c79ec0]:monitor: show_status = 4
+2023-10-17 23:17:03.097507[Thread 0x00007f2d19c79ec0]:load_ams_list: 0 items
+2023-10-17 23:17:03.098606[Thread 0x00007f2d19c79ec0]:CreateWebView: 
+2023-10-17 23:17:03.100046[Thread 0x00007f2d19c79ec0]:CreateWebView: file:/tmp/.mount_OrcaSlG6xhDy/resources/web/model/index.html?lang=en_GB
+2023-10-17 23:17:03.102152[Thread 0x00007f2d19c79ec0]:reset: current result id 0 
+2023-10-17 23:17:03.102944[Thread 0x00007f2d19c79ec0]:set_shape:current position {0,0}, new position {0, 0}
+2023-10-17 23:17:03.104555[Thread 0x00007f2d19c79ec0]:reset_size:before size: plate_width 0, plate_depth 0, plate_height 0
+2023-10-17 23:17:03.104558[Thread 0x00007f2d19c79ec0]:reset_size:after size: plate_width 350, plate_depth 350, plate_height 325
+2023-10-17 23:17:03.104560[Thread 0x00007f2d19c79ec0]:set_pos_and_size: plate_id 0, before, origin {0,0,0}, plate_width 0, plate_depth 0, plate_height 0
+2023-10-17 23:17:03.104563[Thread 0x00007f2d19c79ec0]:set_pos_and_size: with_instance_move 0, after, origin {0,0,0}, plate_width 350, plate_depth 350, plate_height 325
+2023-10-17 23:17:03.104565[Thread 0x00007f2d19c79ec0]:update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+2023-10-17 23:17:03.104568[Thread 0x00007f2d19c79ec0]:set_pos_and_size: plate_id 1, before, origin {0,0,0}, plate_width 0, plate_depth 0, plate_height 0
+2023-10-17 23:17:03.104569[Thread 0x00007f2d19c79ec0]:set_pos_and_size: with_instance_move 0, after, origin {420,0,0}, plate_width 350, plate_depth 350, plate_height 325
+2023-10-17 23:17:03.104572[Thread 0x00007f2d19c79ec0]:update_slice_result_valid_state: plate 1 , update slice result from 0 to 0
+2023-10-17 23:17:03.104573[Thread 0x00007f2d19c79ec0]:update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+2023-10-17 23:17:03.104575[Thread 0x00007f2d19c79ec0]:update_slice_result_valid_state: plate 1 , update slice result from 0 to 0
+2023-10-17 23:17:03.104582[Thread 0x00007f2d19c79ec0]:calc_exclude_triangles:Unable to create exclude triangles
+2023-10-17 23:17:03.111983[Thread 0x00007f2d19c79ec0]:Unable to open the file/tmp/.mount_OrcaSlfOIGTT/resources/calib/tolerance_test/OrcaToleranceTest.stl
+2023-10-17 23:17:03.111994[Thread 0x00007f17937fe6c0]:Unable to open the file/tmp/.mount_OrcaSlHN1XYh/resources/calib/filament_flow/flowrate-test-pass1.3mf
+2023-10-17 23:17:03.112012[Thread 0x00007f1793fff6c0]:Unable to open the file/home/alex/Documents/3dprints/Gridfinity/Other/CoinCell_2x1.3mf
+2023-10-17 23:17:03.130243[Thread 0x00007f2d19c79ec0]:get_enable_print_status: m_print_select 1, enable= 0 
+2023-10-17 23:17:03.130259[Thread 0x00007f2d19c79ec0]:get_enable_slice_status: m_slice_select 1, enable= 1 
+2023-10-17 23:17:03.130262[Thread 0x00007f2d19c79ec0]:update_slice_print_status m_slice_select 1: can_slice= 1, can_print 1, enable_slice 1, enable_print 0 
+2023-10-17 23:17:03.134814[Thread 0x00007f2d19c79ec0]:load_current_preset: enter
+2023-10-17 23:17:03.135219[Thread 0x00007f2d19c79ec0]:put_other_changes
+2023-10-17 23:17:03.136001[Thread 0x00007f2d19c79ec0]:load_current_preset: exit
+2023-10-17 23:17:03.136005[Thread 0x00007f2d19c79ec0]:load_current_preset: enter
+2023-10-17 23:17:03.136289[Thread 0x00007f2d19c79ec0]:put_other_changes
+2023-10-17 23:17:03.136833[Thread 0x00007f2d19c79ec0]:load_current_preset: exit
+2023-10-17 23:17:03.136837[Thread 0x00007f2d19c79ec0]:load_current_preset: enter
+2023-10-17 23:17:03.136904[Thread 0x00007f2d19c79ec0]:reset: current result id 4294967295 
+2023-10-17 23:17:03.136936[Thread 0x00007f2d19c79ec0]:reset_size:before size: plate_width 350, plate_depth 350, plate_height 325
+2023-10-17 23:17:03.136938[Thread 0x00007f2d19c79ec0]:reset_size:after size: plate_width 350, plate_depth 350, plate_height 325
+2023-10-17 23:17:03.136941[Thread 0x00007f2d19c79ec0]:PartPlate same shape, skip directly
+2023-10-17 23:17:03.136947[Thread 0x00007f2d19c79ec0]:load_print_as_fff 654: print is step done, posSlice 0, posSupportMaterial 0, psGCodeExport 0
+2023-10-17 23:17:03.138727[Thread 0x00007f2d19c79ec0]:put_other_changes
+2023-10-17 23:17:03.139326[Thread 0x00007f2d19c79ec0]:load_current_preset: exit
+2023-10-17 23:17:03.140892[Thread 0x00007f2d19c79ec0]:put_other_changes
+2023-10-17 23:17:03.141557[Thread 0x00007f2d19c79ec0]:main frame firstly shown
+2023-10-17 23:17:03.172607[Thread 0x00007f2d19c79ec0]:finished the gui app init
+2023-10-17 23:17:03.217570[Thread 0x00007f2d19c79ec0]:operator(): begin to add script message handler for wx.
+2023-10-17 23:17:03.267016[Thread 0x00007f2d19c79ec0]:OnNavigationRequest: 
+2023-10-17 23:17:03.268967[Thread 0x00007f2d19c79ec0]:operator(): finished add script message handler for wx.
+2023-10-17 23:17:03.268976[Thread 0x00007f2d19c79ec0]:operator(): begin to add script message handler for wx.
+2023-10-17 23:17:03.270024[Thread 0x00007f2d19c79ec0]:OnNavigationComplete: 
+2023-10-17 23:17:03.285018[Thread 0x00007f2d19c79ec0]:OnTitleChanged: homepage
+2023-10-17 23:17:03.297905[Thread 0x00007f2d19c79ec0]:OnScriptMessage: {"sequence_id":1697609823,"command":"get_login_info"}
+2023-10-17 23:17:03.297919[Thread 0x00007f2d19c79ec0]:OnScriptMessage Create Timer
+2023-10-17 23:17:03.297974[Thread 0x00007f2d19c79ec0]:OnScriptMessage: {"sequence_id":1697609823,"command":"get_recent_projects"}
+2023-10-17 23:17:03.299190[Thread 0x00007f2d19c79ec0]:OnDocumentLoaded: 
+2023-10-17 23:17:03.299209[Thread 0x00007f2d19c79ec0]:is_compatibility_version: m_networking_compatible=0
+2023-10-17 23:17:03.299218[Thread 0x00007f2d19c79ec0]:ShowNetpluginTip: bValid=0, nShow=1
+2023-10-17 23:17:03.640682[Thread 0x00007f2d19c79ec0]:update_print_volume_state, print_volume {0, 0, 0} to {350, 350, 325}, got 0 printable istances
+2023-10-17 23:17:03.640717[Thread 0x00007f2d19c79ec0]:update_background_process: enter, force_validation=0 postpone_error_messages=0, switch_print=1, was_running=0
+2023-10-17 23:17:03.640722[Thread 0x00007f2d19c79ec0]:update_print_volume_state, print_volume {0, 0, 0} to {350, 350, 325}, got 0 printable istances
+2023-10-17 23:17:03.640726[Thread 0x00007f2d19c79ec0]:get_current_slice_result:m_current_plate 0, current_plate 0x55e43b1ffa00
+2023-10-17 23:17:03.642612[Thread 0x00007f2d19c79ec0]:apply, Line 1019: enter
+2023-10-17 23:17:03.642727[Thread 0x00007f2d19c79ec0]:apply, got print_diff 80, object_diff 12, region_diff 23, set status to APPLY_STATUS_CHANGED
+2023-10-17 23:17:03.643468[Thread 0x00007f2d19c79ec0]:apply 1075: found full_config_diff changed.
+2023-10-17 23:17:03.643527[Thread 0x00007f2d19c79ec0]:apply 1575: finished,  this 0x55e43b20fa00, m_modified_count 1, apply_status 1, m_support_used 0
+2023-10-17 23:17:03.643570[Thread 0x00007f2d19c79ec0]:update_background_process: background process apply result=1
+2023-10-17 23:17:03.644340[Thread 0x00007f2d19c79ec0]:update_background_process, Line 4559: background data valid, return_state=0
+2023-10-17 23:17:03.644344[Thread 0x00007f2d19c79ec0]:update_background_process, Line 4602: exit, return_state=0
+2023-10-17 23:17:03.644347[Thread 0x00007f2d19c79ec0]:restart_background_process, Line 4640: not started
+2023-10-17 23:17:05.182131[Thread 0x00007f2d19c79ec0]:operator(): finished add script message handler for wx.
+2023-10-17 23:17:05.182149[Thread 0x00007f2d19c79ec0]:operator(): begin to add script message handler for wx.
+2023-10-17 23:17:06.712373[Thread 0x00007f2d19c79ec0]:operator(): finished add script message handler for wx.
+2023-10-17 23:17:06.712395[Thread 0x00007f2d19c79ec0]:post_init, begin load_gl_resources
+2023-10-17 23:17:06.722696[Thread 0x00007f2d19c79ec0]:select view3D
+2023-10-17 23:17:06.722709[Thread 0x00007f2d19c79ec0]:set_current_panel: current_panel 0, new_panel 0x55e43b3dcab0
+2023-10-17 23:17:06.722720[Thread 0x00007f2d19c79ec0]:get_enable_print_status: m_print_select 4, enable= 0 
+2023-10-17 23:17:06.722725[Thread 0x00007f2d19c79ec0]:get_enable_slice_status: m_slice_select 1, enable= 1 
+2023-10-17 23:17:06.722728[Thread 0x00007f2d19c79ec0]:update_slice_print_status m_slice_select 1: can_slice= 1, can_print 1, enable_slice 1, enable_print 0 
+2023-10-17 23:17:06.722829[Thread 0x00007f2d19c79ec0]:set_current_panel: successfully, exit
+2023-10-17 23:17:06.755632[Thread 0x00007f2d19c79ec0]:post_init, start to init opengl
+2023-10-17 23:17:06.757139[Thread 0x00007f2d19c79ec0]:Found Framebuffer Type ARB.
+2023-10-17 23:17:06.757144[Thread 0x00007f2d19c79ec0]:got opengl version 4.5 (Compatibility Profile) Mesa 23.1.6, glsl version 4.50, vendor Mesa
+2023-10-17 23:17:06.762233[Thread 0x00007f2d19c79ec0]:post_init, finished init opengl
+2023-10-17 23:17:06.762242[Thread 0x00007f2d19c79ec0]:init enter
+2023-10-17 23:17:06.762250[Thread 0x00007f2d19c79ec0]:init: before m_layers_editing init
+2023-10-17 23:17:06.762257[Thread 0x00007f2d19c79ec0]:init: before gizmo init
+2023-10-17 23:17:06.831360[Thread 0x00007f2d19c79ec0]:init_occt_fonts start
+2023-10-17 23:17:06.831457[Thread 0x00007f2d19c79ec0]:init_occt_fonts end
+2023-10-17 23:17:06.956353[Thread 0x00007f2d19c79ec0]:init: before _init_toolbars
+2023-10-17 23:17:06.965243[Thread 0x00007f2d19c79ec0]:_init_assemble_view_toolbar: enter,  m_assemble_view_toolbar.is_enabled=true
+2023-10-17 23:17:06.965661[Thread 0x00007f2d19c79ec0]:_init_assemble_view_toolbar: Finished Successfully
+2023-10-17 23:17:06.967348[Thread 0x00007f2d19c79ec0]:init: finish _init_toolbars
+2023-10-17 23:17:06.967371[Thread 0x00007f2d19c79ec0]:init: finish m_selection
+2023-10-17 23:17:06.967372[Thread 0x00007f2d19c79ec0]:post_init, finished init canvas3D
+2023-10-17 23:17:07.045925[Thread 0x00007f2d19c79ec0]:post_init, finished init imgui frame
+2023-10-17 23:17:07.045937[Thread 0x00007f2d19c79ec0]:post_init, start to render a first frame for test
+2023-10-17 23:17:07.197690[Thread 0x00007f2d19c79ec0]:post_init, finished rendering a first frame for test
+2023-10-17 23:17:07.198858[Thread 0x00007f2d19c79ec0]:post_init, end load_gl_resources
+2023-10-17 23:17:07.198865[Thread 0x00007f2d19c79ec0]:before check_updates
+2023-10-17 23:17:07.198867[Thread 0x00007f2d19c79ec0]:after check_updates
+2023-10-17 23:17:07.200138[Thread 0x00007f2d19c79ec0]:delete log file over 30, filename: debug_Fri_Jun_16_00_45_10_1005420.log.0
+2023-10-17 23:17:07.200199[Thread 0x00007f2d19c79ec0]:finished post_init
+2023-10-17 23:17:07.223910[Thread 0x00007f2d19c79ec0]:select view3D
+2023-10-17 23:17:07.223917[Thread 0x00007f2d19c79ec0]:set_current_panel: current_panel 0x55e43b3dcab0, new_panel 0x55e43b3dcab0
+2023-10-17 23:17:07.223924[Thread 0x00007f2d19c79ec0]:set_current_panel: the same panel, exit
+2023-10-17 23:17:07.225051[Thread 0x00007f2d19c79ec0]:Undo / Redo snapshot taken: Reset Project, Undo / Redo stack memory: 0MB Resident memory: 388MB; Shared memory: 193MB; Private memory: 195MB; Peak memory usage: 554MB
+2023-10-17 23:17:07.225091[Thread 0x00007f2d19c79ec0]:reset: current result id 4294967295 
+2023-10-17 23:17:07.225099[Thread 0x00007f2d19c79ec0]:update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+2023-10-17 23:17:07.225110[Thread 0x00007f2d19c79ec0]:update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+2023-10-17 23:17:07.225176[Thread 0x00007f2d19c79ec0]:update_slice_result_valid_state: plate 1 , update slice result from 0 to 0
+2023-10-17 23:17:07.225213[Thread 0x00007f2d19c79ec0]:calc_exclude_triangles:Unable to create exclude triangles
+2023-10-17 23:17:07.225714[Thread 0x00007f2d19c79ec0]:set_pos_and_size: plate_id 1, before, origin {420,0,0}, plate_width 350, plate_depth 350, plate_height 325
+2023-10-17 23:17:07.225725[Thread 0x00007f2d19c79ec0]:set_pos_and_size: with_instance_move 0, after, origin {420,0,0}, plate_width 350, plate_depth 350, plate_height 325
+2023-10-17 23:17:07.225728[Thread 0x00007f2d19c79ec0]:get_current_slice_result:m_current_plate 0, current_plate 0x55e43b1ffa00
+2023-10-17 23:17:07.225731[Thread 0x00007f2d19c79ec0]:stop, enter
+2023-10-17 23:17:07.226825[Thread 0x00007f2d19c79ec0]:object_list_changed: can_slice 0, model_fits= 1, export_in_progress 0, has_printable_instances 0 
+2023-10-17 23:17:07.226832[Thread 0x00007f2d19c79ec0]:get_enable_print_status: m_print_select 4, enable= 0 
+2023-10-17 23:17:07.226834[Thread 0x00007f2d19c79ec0]:update_slice_print_status m_slice_select 1: can_slice= 0, can_print 1, enable_slice 0, enable_print 0 
+2023-10-17 23:17:07.226849[Thread 0x00007f2d19c79ec0]:load_current_preset: enter
+2023-10-17 23:17:07.227725[Thread 0x00007f2d19c79ec0]:put_other_changes
+2023-10-17 23:17:07.230466[Thread 0x00007f2d19c79ec0]:load_current_preset: exit
+2023-10-17 23:17:07.230471[Thread 0x00007f2d19c79ec0]:load_current_preset: enter
+2023-10-17 23:17:07.230772[Thread 0x00007f2d19c79ec0]:put_other_changes
+2023-10-17 23:17:07.231402[Thread 0x00007f2d19c79ec0]:load_current_preset: exit
+2023-10-17 23:17:07.231407[Thread 0x00007f2d19c79ec0]:load_current_preset: enter
+2023-10-17 23:17:07.231473[Thread 0x00007f2d19c79ec0]:reset: current result id 4294967295 
+2023-10-17 23:17:07.231502[Thread 0x00007f2d19c79ec0]:reset_size:before size: plate_width 350, plate_depth 350, plate_height 325
+2023-10-17 23:17:07.231504[Thread 0x00007f2d19c79ec0]:reset_size:after size: plate_width 350, plate_depth 350, plate_height 325
+2023-10-17 23:17:07.231506[Thread 0x00007f2d19c79ec0]:PartPlate same shape, skip directly
+2023-10-17 23:17:07.232372[Thread 0x00007f2d19c79ec0]:put_other_changes
+2023-10-17 23:17:07.232979[Thread 0x00007f2d19c79ec0]:load_current_preset: exit
+2023-10-17 23:17:07.234714[Thread 0x00007f2d19c79ec0]:put_other_changes
+2023-10-17 23:17:07.234771[Thread 0x00007f2d19c79ec0]:Undo / Redo snapshot taken: New Project, Undo / Redo stack memory: 0MB Resident memory: 388MB; Shared memory: 193MB; Private memory: 195MB; Peak memory usage: 554MB
+2023-10-17 23:17:07.234804[Thread 0x00007f2d19c79ec0]:model 0x7fffa68e1cc0, id 32, backup_path empty, set to /tmp/orcaslicer_model/Tue_Oct_17/23_17_07#224284#32
+2023-10-17 23:17:07.234812[Thread 0x00007f2d19c79ec0]:create /3D/Objects in "/tmp/orcaslicer_model/Tue_Oct_17/23_17_07#224284#32"
+2023-10-17 23:17:07.234835[Thread 0x00007f2d19c79ec0]:create /Metadata in "/tmp/orcaslicer_model/Tue_Oct_17/23_17_07#224284#32"
+2023-10-17 23:17:07.234840[Thread 0x00007f2d19c79ec0]:create /lock.txt in "/tmp/orcaslicer_model/Tue_Oct_17/23_17_07#224284#32"
+2023-10-17 23:17:07.234853[Thread 0x00007f2d19c79ec0]:set_backup_path, model 0x55e43b0fe000, id 7, set backup to /tmp/orcaslicer_model/Tue_Oct_17/23_17_07#224284#32
+2023-10-17 23:17:07.234868[Thread 0x00007f2d19c79ec0]:create missing sub_path/tmp/orcaslicer_model/Tue_Oct_17/23_17_07#224284#32//Auxiliaries
+2023-10-17 23:17:07.234996[Thread 0x00007f2d19c79ec0]:select view3D
+2023-10-17 23:17:07.234998[Thread 0x00007f2d19c79ec0]:set_current_panel: current_panel 0x55e43b3dcab0, new_panel 0x55e43b3dcab0
+2023-10-17 23:17:07.235000[Thread 0x00007f2d19c79ec0]:set_current_panel: the same panel, exit
+2023-10-17 23:17:07.235478[Thread 0x00007f2d19c79ec0]:select view3D
+2023-10-17 23:17:07.235676[Thread 0x00007f2d19c79ec0]:get_version, get_version not supported,return 00.00.00.00!
+2023-10-17 23:17:07.235770[Thread 0x00007f2cf89fb6c0]:[BBL Updater]: sync_config Syncing configuration enter
+2023-10-17 23:17:07.235791[Thread 0x00007f2cf89fb6c0]:non need to sync plugins for there is no plugins currently.
+2023-10-17 23:17:07.237278[Thread 0x00007f2d19c79ec0]:is_compatibility_version: m_networking_compatible=0
+2023-10-17 23:17:07.237282[Thread 0x00007f2d19c79ec0]:ShowNetpluginTip: bValid=0, nShow=1
+2023-10-17 23:17:07.237444[Thread 0x00007f2d19c79ec0]:get_enable_print_status: m_print_select 4, enable= 0 
+2023-10-17 23:17:07.237447[Thread 0x00007f2d19c79ec0]:update_slice_print_status m_slice_select 1: can_slice= 0, can_print 1, enable_slice 0, enable_print 0 
+2023-10-17 23:17:07.237449[Thread 0x00007f2d19c79ec0]:get_enable_print_status: m_print_select 4, enable= 0 
+2023-10-17 23:17:07.237450[Thread 0x00007f2d19c79ec0]:update_slice_print_status m_slice_select 1: can_slice= 0, can_print 1, enable_slice 0, enable_print 0 
+2023-10-17 23:17:07.237452[Thread 0x00007f2d19c79ec0]:get_enable_print_status: m_print_select 4, enable= 0 
+2023-10-17 23:17:07.237453[Thread 0x00007f2d19c79ec0]:update_slice_print_status m_slice_select 1: can_slice= 0, can_print 1, enable_slice 0, enable_print 0 
+2023-10-17 23:17:07.733182[Thread 0x00007f2d19c79ec0]:update_print_volume_state, print_volume {0, 0, 0} to {350, 350, 325}, got 0 printable istances
+2023-10-17 23:17:07.733222[Thread 0x00007f2d19c79ec0]:update_background_process: enter, force_validation=0 postpone_error_messages=0, switch_print=1, was_running=0
+2023-10-17 23:17:07.733229[Thread 0x00007f2d19c79ec0]:update_print_volume_state, print_volume {0, 0, 0} to {350, 350, 325}, got 0 printable istances
+2023-10-17 23:17:07.733235[Thread 0x00007f2d19c79ec0]:get_current_slice_result:m_current_plate 0, current_plate 0x55e43b1ffa00
+2023-10-17 23:17:07.733966[Thread 0x00007f2d19c79ec0]:apply, Line 1019: enter
+2023-10-17 23:17:07.734157[Thread 0x00007f2d19c79ec0]:apply, got print_diff 80, object_diff 12, region_diff 23, set status to APPLY_STATUS_CHANGED
+2023-10-17 23:17:07.734188[Thread 0x00007f2d19c79ec0]:apply 1075: found full_config_diff changed.
+2023-10-17 23:17:07.734304[Thread 0x00007f2d19c79ec0]:apply 1575: finished,  this 0x55e43b20fa00, m_modified_count 1, apply_status 1, m_support_used 0
+2023-10-17 23:17:07.734381[Thread 0x00007f2d19c79ec0]:update_background_process: background process apply result=1
+2023-10-17 23:17:07.734387[Thread 0x00007f2d19c79ec0]:update_background_process, Line 4559: background data valid, return_state=0
+2023-10-17 23:17:07.734389[Thread 0x00007f2d19c79ec0]:update_background_process, Line 4602: exit, return_state=0
+2023-10-17 23:17:07.734393[Thread 0x00007f2d19c79ec0]:restart_background_process, Line 4640: not started
+2023-10-17 23:17:08.142799[Thread 0x00007f2d19c79ec0]:new version = 1.7.0, skip version = 1.7.0
+2023-10-17 23:17:13.130335[Thread 0x00007f175bfff6c0]:process_task{ type:Backup, id:0, path:, object:0, extra:1}
+2023-10-17 23:17:13.130436[Thread 0x00007f2d19c79ec0]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:1}
+2023-10-17 23:17:19.344440[Thread 0x00007f2d19c79ec0]:select view3D
+2023-10-17 23:17:19.344455[Thread 0x00007f2d19c79ec0]:set_current_panel: current_panel 0x55e43b3dcab0, new_panel 0x55e43b3dcab0
+2023-10-17 23:17:19.344466[Thread 0x00007f2d19c79ec0]:set_current_panel: the same panel, exit
+2023-10-17 23:17:23.130350[Thread 0x00007f175bfff6c0]:process_task{ type:Backup, id:0, path:, object:0, extra:2}
+2023-10-17 23:17:23.130420[Thread 0x00007f2d19c79ec0]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:2}
+2023-10-17 23:17:33.130339[Thread 0x00007f175bfff6c0]:process_task{ type:Backup, id:0, path:, object:0, extra:3}
+2023-10-17 23:17:33.130377[Thread 0x00007f2d19c79ec0]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:3}
+2023-10-17 23:17:33.802891[Thread 0x00007f2d19c79ec0]:select view3D
+2023-10-17 23:17:33.802907[Thread 0x00007f2d19c79ec0]:set_current_panel: current_panel 0x55e43b3dcab0, new_panel 0x55e43b3dcab0
+2023-10-17 23:17:33.802918[Thread 0x00007f2d19c79ec0]:set_current_panel: the same panel, exit
+2023-10-17 23:17:43.130504[Thread 0x00007f175bfff6c0]:process_task{ type:Backup, id:0, path:, object:0, extra:4}
+2023-10-17 23:17:43.130650[Thread 0x00007f2d19c79ec0]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:4}
+2023-10-17 23:17:53.130632[Thread 0x00007f175bfff6c0]:process_task{ type:Backup, id:0, path:, object:0, extra:5}
+2023-10-17 23:17:53.130780[Thread 0x00007f2d19c79ec0]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:5}
+2023-10-17 23:18:03.130626[Thread 0x00007f175bfff6c0]:process_task{ type:Backup, id:0, path:, object:0, extra:6}
+2023-10-17 23:18:03.130750[Thread 0x00007f2d19c79ec0]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:6}
+2023-10-17 23:18:13.130350[Thread 0x00007f175bfff6c0]:process_task{ type:Backup, id:0, path:, object:0, extra:7}
+2023-10-17 23:18:13.130417[Thread 0x00007f2d19c79ec0]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:7}
+2023-10-17 23:18:23.096858[Thread 0x00007f2d19c79ec0]:select preset, name Polymaker Polylite PLA, delete_current 0
+2023-10-17 23:18:23.096891[Thread 0x00007f2d19c79ec0]:before delete action, canceled 0, delete_current 0
+2023-10-17 23:18:23.096895[Thread 0x00007f2d19c79ec0]:successfully delete, will update compatibility
+2023-10-17 23:18:23.096898[Thread 0x00007f2d19c79ec0]:apply_config_from_cache: enter
+2023-10-17 23:18:23.096899[Thread 0x00007f2d19c79ec0]:apply_config_from_cache: exit, was_applied=0
+2023-10-17 23:18:23.096902[Thread 0x00007f2d19c79ec0]:load_current_preset: enter
+2023-10-17 23:18:23.097611[Thread 0x00007f2d19c79ec0]:put_other_changes
+2023-10-17 23:18:23.099758[Thread 0x00007f2d19c79ec0]:load_current_preset: exit
+2023-10-17 23:18:23.099765[Thread 0x00007f2d19c79ec0]:select preset, exit
+2023-10-17 23:18:23.130306[Thread 0x00007f175bfff6c0]:process_task{ type:Backup, id:0, path:, object:0, extra:8}
+2023-10-17 23:18:23.281418[Thread 0x00007f2d19c79ec0]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:8}
+2023-10-17 23:18:23.597525[Thread 0x00007f2d19c79ec0]:update_print_volume_state, print_volume {0, 0, 0} to {350, 350, 325}, got 0 printable istances
+2023-10-17 23:18:23.597562[Thread 0x00007f2d19c79ec0]:update_background_process: enter, force_validation=0 postpone_error_messages=0, switch_print=1, was_running=0
+2023-10-17 23:18:23.597568[Thread 0x00007f2d19c79ec0]:update_print_volume_state, print_volume {0, 0, 0} to {350, 350, 325}, got 0 printable istances
+2023-10-17 23:18:23.597574[Thread 0x00007f2d19c79ec0]:get_current_slice_result:m_current_plate 0, current_plate 0x55e43b1ffa00
+2023-10-17 23:18:23.598280[Thread 0x00007f2d19c79ec0]:apply, Line 1019: enter
+2023-10-17 23:18:23.598536[Thread 0x00007f2d19c79ec0]:apply 1575: finished,  this 0x55e43b20fa00, m_modified_count 1, apply_status 0, m_support_used 0
+2023-10-17 23:18:23.598610[Thread 0x00007f2d19c79ec0]:update_background_process: background process apply result=0
+2023-10-17 23:18:23.598616[Thread 0x00007f2d19c79ec0]:update_background_process, Line 4559: background data valid, return_state=0
+2023-10-17 23:18:23.598619[Thread 0x00007f2d19c79ec0]:update_background_process, Line 4602: exit, return_state=0
+2023-10-17 23:18:23.598622[Thread 0x00007f2d19c79ec0]:restart_background_process, Line 4640: not started
+2023-10-17 23:18:33.130355[Thread 0x00007f175bfff6c0]:process_task{ type:Backup, id:0, path:, object:0, extra:9}
+2023-10-17 23:18:33.130420[Thread 0x00007f2d19c79ec0]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:9}
+2023-10-17 23:18:38.886171[Thread 0x00007f2d19c79ec0]:put_other_changes
+2023-10-17 23:18:39.387089[Thread 0x00007f2d19c79ec0]:update_print_volume_state, print_volume {0, 0, 0} to {350, 350, 325}, got 0 printable istances
+2023-10-17 23:18:39.387133[Thread 0x00007f2d19c79ec0]:update_background_process: enter, force_validation=0 postpone_error_messages=0, switch_print=1, was_running=0
+2023-10-17 23:18:39.387140[Thread 0x00007f2d19c79ec0]:update_print_volume_state, print_volume {0, 0, 0} to {350, 350, 325}, got 0 printable istances
+2023-10-17 23:18:39.387147[Thread 0x00007f2d19c79ec0]:get_current_slice_result:m_current_plate 0, current_plate 0x55e43b1ffa00
+2023-10-17 23:18:39.387794[Thread 0x00007f2d19c79ec0]:apply, Line 1019: enter
+2023-10-17 23:18:39.388021[Thread 0x00007f2d19c79ec0]:apply, got print_diff 1, object_diff 0, region_diff 0, set status to APPLY_STATUS_CHANGED
+2023-10-17 23:18:39.388027[Thread 0x00007f2d19c79ec0]:apply 1075: found full_config_diff changed.
+2023-10-17 23:18:39.388118[Thread 0x00007f2d19c79ec0]:apply 1575: finished,  this 0x55e43b20fa00, m_modified_count 2, apply_status 1, m_support_used 0
+2023-10-17 23:18:39.388184[Thread 0x00007f2d19c79ec0]:update_background_process: background process apply result=1
+2023-10-17 23:18:39.388190[Thread 0x00007f2d19c79ec0]:update_background_process, Line 4559: background data valid, return_state=0
+2023-10-17 23:18:39.388192[Thread 0x00007f2d19c79ec0]:update_background_process, Line 4602: exit, return_state=0
+2023-10-17 23:18:39.388195[Thread 0x00007f2d19c79ec0]:restart_background_process, Line 4640: not started
+2023-10-17 23:18:43.130602[Thread 0x00007f175bfff6c0]:process_task{ type:Backup, id:0, path:, object:0, extra:10}
+2023-10-17 23:18:43.130717[Thread 0x00007f2d19c79ec0]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:10}
+2023-10-17 23:18:44.209195[Thread 0x00007f2d19c79ec0]:put_other_changes
+2023-10-17 23:18:44.311244[Thread 0x00007f2d19c79ec0]:Item, create item: typefilament, preset , is_project_embedded = false
+2023-10-17 23:18:44.709926[Thread 0x00007f2d19c79ec0]:update_print_volume_state, print_volume {0, 0, 0} to {350, 350, 325}, got 0 printable istances
+2023-10-17 23:18:44.709970[Thread 0x00007f2d19c79ec0]:update_background_process: enter, force_validation=0 postpone_error_messages=0, switch_print=1, was_running=0
+2023-10-17 23:18:44.709977[Thread 0x00007f2d19c79ec0]:update_print_volume_state, print_volume {0, 0, 0} to {350, 350, 325}, got 0 printable istances
+2023-10-17 23:18:44.709984[Thread 0x00007f2d19c79ec0]:get_current_slice_result:m_current_plate 0, current_plate 0x55e43b1ffa00
+2023-10-17 23:18:44.710619[Thread 0x00007f2d19c79ec0]:apply, Line 1019: enter
+2023-10-17 23:18:44.710853[Thread 0x00007f2d19c79ec0]:apply, got print_diff 1, object_diff 0, region_diff 0, set status to APPLY_STATUS_CHANGED
+2023-10-17 23:18:44.710861[Thread 0x00007f2d19c79ec0]:apply 1075: found full_config_diff changed.
+2023-10-17 23:18:44.710955[Thread 0x00007f2d19c79ec0]:apply 1575: finished,  this 0x55e43b20fa00, m_modified_count 3, apply_status 1, m_support_used 0
+2023-10-17 23:18:44.711020[Thread 0x00007f2d19c79ec0]:update_background_process: background process apply result=1
+2023-10-17 23:18:44.711026[Thread 0x00007f2d19c79ec0]:update_background_process, Line 4559: background data valid, return_state=0
+2023-10-17 23:18:44.711028[Thread 0x00007f2d19c79ec0]:update_background_process, Line 4602: exit, return_state=0
+2023-10-17 23:18:44.711032[Thread 0x00007f2d19c79ec0]:restart_background_process, Line 4640: not started
+2023-10-17 23:18:45.776250[Thread 0x00007f2d19c79ec0]:save_to_json:1367, saved config to /home/alex/.config/OrcaSlicer/user/default/filament/Polymaker Polylite PLA.json
+2023-10-17 23:18:45.776312[Thread 0x00007f2d19c79ec0]:sync_preset: update preset = Polymaker Polylite PLA
+2023-10-17 23:18:45.776353[Thread 0x00007f2d19c79ec0]:update_compatibility for all presets enter
+2023-10-17 23:18:45.776397[Thread 0x00007f2d19c79ec0]:update_compatibility for all presets exit
+2023-10-17 23:18:45.777916[Thread 0x00007f2d19c79ec0]:put_other_changes
+2023-10-17 23:18:53.130347[Thread 0x00007f175bfff6c0]:process_task{ type:Backup, id:0, path:, object:0, extra:11}
+2023-10-17 23:18:53.130447[Thread 0x00007f2d19c79ec0]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:11}
+2023-10-17 23:19:03.130631[Thread 0x00007f175bfff6c0]:process_task{ type:Backup, id:0, path:, object:0, extra:12}
+2023-10-17 23:19:03.130748[Thread 0x00007f2d19c79ec0]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:12}
+2023-10-17 23:19:13.130624[Thread 0x00007f175bfff6c0]:process_task{ type:Backup, id:0, path:, object:0, extra:13}
+2023-10-17 23:19:13.130741[Thread 0x00007f2d19c79ec0]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:13}
+2023-10-17 23:19:23.130628[Thread 0x00007f175bfff6c0]:process_task{ type:Backup, id:0, path:, object:0, extra:14}
+2023-10-17 23:19:23.130775[Thread 0x00007f2d19c79ec0]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:14}
+2023-10-17 23:19:33.130510[Thread 0x00007f175bfff6c0]:process_task{ type:Backup, id:0, path:, object:0, extra:15}
+2023-10-17 23:19:33.130659[Thread 0x00007f2d19c79ec0]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:15}
+2023-10-17 23:19:43.130514[Thread 0x00007f175bfff6c0]:process_task{ type:Backup, id:0, path:, object:0, extra:16}
+2023-10-17 23:19:43.131597[Thread 0x00007f2d19c79ec0]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:16}
+2023-10-17 23:19:49.863184[Thread 0x00007f2d19c79ec0]:put_other_changes
+2023-10-17 23:19:50.364648[Thread 0x00007f2d19c79ec0]:update_print_volume_state, print_volume {0, 0, 0} to {350, 350, 325}, got 0 printable istances
+2023-10-17 23:19:50.364692[Thread 0x00007f2d19c79ec0]:update_background_process: enter, force_validation=0 postpone_error_messages=0, switch_print=1, was_running=0
+2023-10-17 23:19:50.364699[Thread 0x00007f2d19c79ec0]:update_print_volume_state, print_volume {0, 0, 0} to {350, 350, 325}, got 0 printable istances
+2023-10-17 23:19:50.364705[Thread 0x00007f2d19c79ec0]:get_current_slice_result:m_current_plate 0, current_plate 0x55e43b1ffa00
+2023-10-17 23:19:50.365405[Thread 0x00007f2d19c79ec0]:apply, Line 1019: enter
+2023-10-17 23:19:50.365628[Thread 0x00007f2d19c79ec0]:apply, got print_diff 1, object_diff 0, region_diff 0, set status to APPLY_STATUS_CHANGED
+2023-10-17 23:19:50.365634[Thread 0x00007f2d19c79ec0]:apply 1075: found full_config_diff changed.
+2023-10-17 23:19:50.365722[Thread 0x00007f2d19c79ec0]:apply 1575: finished,  this 0x55e43b20fa00, m_modified_count 4, apply_status 1, m_support_used 0
+2023-10-17 23:19:50.365788[Thread 0x00007f2d19c79ec0]:update_background_process: background process apply result=1
+2023-10-17 23:19:50.365794[Thread 0x00007f2d19c79ec0]:update_background_process, Line 4559: background data valid, return_state=0
+2023-10-17 23:19:50.365796[Thread 0x00007f2d19c79ec0]:update_background_process, Line 4602: exit, return_state=0
+2023-10-17 23:19:50.365799[Thread 0x00007f2d19c79ec0]:restart_background_process, Line 4640: not started
+2023-10-17 23:19:53.105994[Thread 0x00007f2d19c79ec0]:put_other_changes
+2023-10-17 23:19:53.130328[Thread 0x00007f175bfff6c0]:process_task{ type:Backup, id:0, path:, object:0, extra:17}
+2023-10-17 23:19:53.130382[Thread 0x00007f2d19c79ec0]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:17}
+2023-10-17 23:19:53.197137[Thread 0x00007f2d19c79ec0]:Item, create item: typefilament, preset , is_project_embedded = false
+2023-10-17 23:19:53.606904[Thread 0x00007f2d19c79ec0]:update_print_volume_state, print_volume {0, 0, 0} to {350, 350, 325}, got 0 printable istances
+2023-10-17 23:19:53.606944[Thread 0x00007f2d19c79ec0]:update_background_process: enter, force_validation=0 postpone_error_messages=0, switch_print=1, was_running=0
+2023-10-17 23:19:53.606951[Thread 0x00007f2d19c79ec0]:update_print_volume_state, print_volume {0, 0, 0} to {350, 350, 325}, got 0 printable istances
+2023-10-17 23:19:53.606957[Thread 0x00007f2d19c79ec0]:get_current_slice_result:m_current_plate 0, current_plate 0x55e43b1ffa00
+2023-10-17 23:19:53.607575[Thread 0x00007f2d19c79ec0]:apply, Line 1019: enter
+2023-10-17 23:19:53.607793[Thread 0x00007f2d19c79ec0]:apply, got print_diff 1, object_diff 0, region_diff 0, set status to APPLY_STATUS_CHANGED
+2023-10-17 23:19:53.607801[Thread 0x00007f2d19c79ec0]:apply 1075: found full_config_diff changed.
+2023-10-17 23:19:53.607888[Thread 0x00007f2d19c79ec0]:apply 1575: finished,  this 0x55e43b20fa00, m_modified_count 5, apply_status 1, m_support_used 0
+2023-10-17 23:19:53.607952[Thread 0x00007f2d19c79ec0]:update_background_process: background process apply result=1
+2023-10-17 23:19:53.607957[Thread 0x00007f2d19c79ec0]:update_background_process, Line 4559: background data valid, return_state=0
+2023-10-17 23:19:53.607960[Thread 0x00007f2d19c79ec0]:update_background_process, Line 4602: exit, return_state=0
+2023-10-17 23:19:53.607963[Thread 0x00007f2d19c79ec0]:restart_background_process, Line 4640: not started
+2023-10-17 23:19:54.579627[Thread 0x00007f2d19c79ec0]:save_to_json:1367, saved config to /home/alex/.config/OrcaSlicer/user/default/filament/Polymaker Polylite PLA.json
+2023-10-17 23:19:54.579695[Thread 0x00007f2d19c79ec0]:sync_preset: update preset = Polymaker Polylite PLA
+2023-10-17 23:19:54.579758[Thread 0x00007f2d19c79ec0]:update_compatibility for all presets enter
+2023-10-17 23:19:54.579815[Thread 0x00007f2d19c79ec0]:update_compatibility for all presets exit
+2023-10-17 23:19:54.580361[Thread 0x00007f2d19c79ec0]:put_other_changes
+2023-10-17 23:20:03.130601[Thread 0x00007f175bfff6c0]:process_task{ type:Backup, id:0, path:, object:0, extra:18}
+2023-10-17 23:20:03.130749[Thread 0x00007f2d19c79ec0]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:18}
+2023-10-17 23:20:10.233611[Thread 0x00007f2d19c79ec0]:select preview
+2023-10-17 23:20:10.234439[Thread 0x00007f2d19c79ec0]:set_current_panel: current_panel 0x55e43b3dcab0, new_panel 0x55e43b02a400
+2023-10-17 23:20:10.234452[Thread 0x00007f2d19c79ec0]:get_enable_print_status: m_print_select 4, enable= 0 
+2023-10-17 23:20:10.234456[Thread 0x00007f2d19c79ec0]:get_enable_slice_status: m_slice_select 1, enable= 1 
+2023-10-17 23:20:10.234458[Thread 0x00007f2d19c79ec0]:update_slice_print_status m_slice_select 1: can_slice= 1, can_print 1, enable_slice 1, enable_print 0 
+2023-10-17 23:20:10.234511[Thread 0x00007f2d19c79ec0]:thumb: invalid all
+2023-10-17 23:20:10.234555[Thread 0x00007f2d19c79ec0]:operator(): from set_current_panel, no_slice 0, export_in_progress 0, model_fits 1, m_is_slicing 0
+2023-10-17 23:20:10.234559[Thread 0x00007f2d19c79ec0]:reset: current result id 4294967295 
+2023-10-17 23:20:10.237897[Thread 0x00007f2d19c79ec0]:init enter
+2023-10-17 23:20:10.237908[Thread 0x00007f2d19c79ec0]:init: before m_layers_editing init
+2023-10-17 23:20:10.237910[Thread 0x00007f2d19c79ec0]:init: before gizmo init
+2023-10-17 23:20:10.237911[Thread 0x00007f2d19c79ec0]:init: before _init_toolbars
+2023-10-17 23:20:10.237912[Thread 0x00007f2d19c79ec0]:_init_assemble_view_toolbar: enter,  m_assemble_view_toolbar.is_enabled=false
+2023-10-17 23:20:10.238671[Thread 0x00007f2d19c79ec0]:init: finish _init_toolbars
+2023-10-17 23:20:10.238673[Thread 0x00007f2d19c79ec0]:init: finish m_selection
+2023-10-17 23:20:10.238675[Thread 0x00007f2d19c79ec0]:init: enter, m_buffers.size=10
+2023-10-17 23:20:10.245960[Thread 0x00007f2d19c79ec0]:init: finished
+2023-10-17 23:20:10.245964[Thread 0x00007f2d19c79ec0]:operator(): single slice, reload print
+2023-10-17 23:20:10.245967[Thread 0x00007f2d19c79ec0]:load_shells: initialized=1, force_previewing=1
+2023-10-17 23:20:10.245972[Thread 0x00007f2d19c79ec0]:load_print_as_fff 654: print is step done, posSlice 0, posSupportMaterial 0, psGCodeExport 0
+2023-10-17 23:20:10.246050[Thread 0x00007f2d19c79ec0]:render_thumbnail prepare: w 512, h 512, max_samples  4, render_fbo 1
+2023-10-17 23:20:10.246215[Thread 0x00007f2d19c79ec0]:render_thumbnail: plate_idx 0 volumes size 0, shader 0x55e43d1066e0, use_top_view=0, for_picking=0
+2023-10-17 23:20:10.246237[Thread 0x00007f2d19c79ec0]:render_thumbnail: finished
+2023-10-17 23:20:10.259720[Thread 0x00007f2d19c79ec0]:render_thumbnail prepare: finished
+2023-10-17 23:20:10.262936[Thread 0x00007f2d19c79ec0]:set_current_panel: successfully, exit
+2023-10-17 23:20:11.781370[Thread 0x00007f2d19c79ec0]:select view3D
+2023-10-17 23:20:11.781385[Thread 0x00007f2d19c79ec0]:set_current_panel: current_panel 0x55e43b02a400, new_panel 0x55e43b3dcab0
+2023-10-17 23:20:11.781397[Thread 0x00007f2d19c79ec0]:get_enable_print_status: m_print_select 4, enable= 0 
+2023-10-17 23:20:11.781402[Thread 0x00007f2d19c79ec0]:get_enable_slice_status: m_slice_select 1, enable= 1 
+2023-10-17 23:20:11.781404[Thread 0x00007f2d19c79ec0]:update_slice_print_status m_slice_select 1: can_slice= 1, can_print 1, enable_slice 1, enable_print 0 
+2023-10-17 23:20:11.801731[Thread 0x00007f2d19c79ec0]:set_current_panel: successfully, exit
+2023-10-17 23:20:13.130602[Thread 0x00007f175bfff6c0]:process_task{ type:Backup, id:0, path:, object:0, extra:19}
+2023-10-17 23:20:13.130750[Thread 0x00007f2d19c79ec0]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:19}
+2023-10-17 23:20:16.497128[Thread 0x00007f2d19c79ec0]:select preset, name Polymaker Polylite PLA, delete_current 0
+2023-10-17 23:20:16.497178[Thread 0x00007f2d19c79ec0]:before delete action, canceled 0, delete_current 0
+2023-10-17 23:20:16.497182[Thread 0x00007f2d19c79ec0]:successfully delete, will update compatibility
+2023-10-17 23:20:16.497185[Thread 0x00007f2d19c79ec0]:apply_config_from_cache: enter
+2023-10-17 23:20:16.497187[Thread 0x00007f2d19c79ec0]:apply_config_from_cache: exit, was_applied=0
+2023-10-17 23:20:16.497189[Thread 0x00007f2d19c79ec0]:load_current_preset: enter
+2023-10-17 23:20:16.498118[Thread 0x00007f2d19c79ec0]:put_other_changes
+2023-10-17 23:20:16.501476[Thread 0x00007f2d19c79ec0]:load_current_preset: exit
+2023-10-17 23:20:16.501484[Thread 0x00007f2d19c79ec0]:select preset, exit
+2023-10-17 23:20:16.998329[Thread 0x00007f2d19c79ec0]:update_print_volume_state, print_volume {0, 0, 0} to {350, 350, 325}, got 0 printable istances
+2023-10-17 23:20:16.998367[Thread 0x00007f2d19c79ec0]:update_background_process: enter, force_validation=0 postpone_error_messages=0, switch_print=1, was_running=0
+2023-10-17 23:20:16.998374[Thread 0x00007f2d19c79ec0]:update_print_volume_state, print_volume {0, 0, 0} to {350, 350, 325}, got 0 printable istances
+2023-10-17 23:20:16.998381[Thread 0x00007f2d19c79ec0]:get_current_slice_result:m_current_plate 0, current_plate 0x55e43b1ffa00
+2023-10-17 23:20:16.999089[Thread 0x00007f2d19c79ec0]:apply, Line 1019: enter
+2023-10-17 23:20:16.999334[Thread 0x00007f2d19c79ec0]:apply 1575: finished,  this 0x55e43b20fa00, m_modified_count 5, apply_status 0, m_support_used 0
+2023-10-17 23:20:16.999406[Thread 0x00007f2d19c79ec0]:update_background_process: background process apply result=0
+2023-10-17 23:20:16.999412[Thread 0x00007f2d19c79ec0]:update_background_process, Line 4559: background data valid, return_state=0
+2023-10-17 23:20:16.999415[Thread 0x00007f2d19c79ec0]:update_background_process, Line 4602: exit, return_state=0
+2023-10-17 23:20:16.999418[Thread 0x00007f2d19c79ec0]:restart_background_process, Line 4640: not started
+2023-10-17 23:20:23.130332[Thread 0x00007f175bfff6c0]:process_task{ type:Backup, id:0, path:, object:0, extra:20}
+2023-10-17 23:20:23.130399[Thread 0x00007f2d19c79ec0]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:20}
+2023-10-17 23:20:23.416240[Thread 0x00007f2d19c79ec0]:select view3D
+2023-10-17 23:20:23.416298[Thread 0x00007f2d19c79ec0]:set_current_panel: current_panel 0x55e43b3dcab0, new_panel 0x55e43b3dcab0
+2023-10-17 23:20:23.416309[Thread 0x00007f2d19c79ec0]:set_current_panel: the same panel, exit
+2023-10-17 23:20:33.130375[Thread 0x00007f175bfff6c0]:process_task{ type:Backup, id:0, path:, object:0, extra:21}
+2023-10-17 23:20:33.130507[Thread 0x00007f2d19c79ec0]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:21}
+2023-10-17 23:20:43.130330[Thread 0x00007f175bfff6c0]:process_task{ type:Backup, id:0, path:, object:0, extra:22}
+2023-10-17 23:20:43.130455[Thread 0x00007f2d19c79ec0]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:22}
+2023-10-17 23:20:53.130620[Thread 0x00007f175bfff6c0]:process_task{ type:Backup, id:0, path:, object:0, extra:23}
+2023-10-17 23:20:53.130767[Thread 0x00007f2d19c79ec0]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:23}
+2023-10-17 23:21:03.130324[Thread 0x00007f175bfff6c0]:process_task{ type:Backup, id:0, path:, object:0, extra:24}
+2023-10-17 23:21:03.130432[Thread 0x00007f2d19c79ec0]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:24}
+2023-10-17 23:21:13.130626[Thread 0x00007f175bfff6c0]:process_task{ type:Backup, id:0, path:, object:0, extra:25}
+2023-10-17 23:21:13.130774[Thread 0x00007f2d19c79ec0]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:25}
+2023-10-17 23:21:23.130610[Thread 0x00007f175bfff6c0]:process_task{ type:Backup, id:0, path:, object:0, extra:26}
+2023-10-17 23:21:23.130759[Thread 0x00007f2d19c79ec0]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:26}
+2023-10-17 23:21:33.130659[Thread 0x00007f175bfff6c0]:process_task{ type:Backup, id:0, path:, object:0, extra:27}
+2023-10-17 23:21:33.130807[Thread 0x00007f2d19c79ec0]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:27}
+2023-10-17 23:21:43.130355[Thread 0x00007f175bfff6c0]:process_task{ type:Backup, id:0, path:, object:0, extra:28}
+2023-10-17 23:21:43.130550[Thread 0x00007f2d19c79ec0]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:28}
+2023-10-17 23:21:53.130584[Thread 0x00007f175bfff6c0]:process_task{ type:Backup, id:0, path:, object:0, extra:29}
+2023-10-17 23:21:53.130700[Thread 0x00007f2d19c79ec0]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:29}
+2023-10-17 23:22:03.130383[Thread 0x00007f175bfff6c0]:process_task{ type:Backup, id:0, path:, object:0, extra:30}
+2023-10-17 23:22:03.130499[Thread 0x00007f2d19c79ec0]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:30}
+2023-10-17 23:22:13.130358[Thread 0x00007f175bfff6c0]:process_task{ type:Backup, id:0, path:, object:0, extra:31}
+2023-10-17 23:22:13.130444[Thread 0x00007f2d19c79ec0]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:31}
+2023-10-17 23:22:23.130349[Thread 0x00007f175bfff6c0]:process_task{ type:Backup, id:0, path:, object:0, extra:32}
+2023-10-17 23:22:23.130464[Thread 0x00007f2d19c79ec0]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:32}
+2023-10-17 23:22:33.130355[Thread 0x00007f175bfff6c0]:process_task{ type:Backup, id:0, path:, object:0, extra:33}
+2023-10-17 23:22:33.130473[Thread 0x00007f2d19c79ec0]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:33}
+2023-10-17 23:22:43.130654[Thread 0x00007f175bfff6c0]:process_task{ type:Backup, id:0, path:, object:0, extra:34}
+2023-10-17 23:22:43.130772[Thread 0x00007f2d19c79ec0]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:34}
+2023-10-17 23:22:53.130595[Thread 0x00007f175bfff6c0]:process_task{ type:Backup, id:0, path:, object:0, extra:35}
+2023-10-17 23:22:53.130711[Thread 0x00007f2d19c79ec0]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:35}
+2023-10-17 23:23:03.130344[Thread 0x00007f175bfff6c0]:process_task{ type:Backup, id:0, path:, object:0, extra:36}
+2023-10-17 23:23:03.130458[Thread 0x00007f2d19c79ec0]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:36}
+2023-10-17 23:23:13.130640[Thread 0x00007f175bfff6c0]:process_task{ type:Backup, id:0, path:, object:0, extra:37}
+2023-10-17 23:23:13.130757[Thread 0x00007f2d19c79ec0]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:37}
+2023-10-17 23:23:23.130318[Thread 0x00007f175bfff6c0]:process_task{ type:Backup, id:0, path:, object:0, extra:38}
+2023-10-17 23:23:23.137268[Thread 0x00007f2d19c79ec0]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:38}
+2023-10-17 23:23:33.130353[Thread 0x00007f175bfff6c0]:process_task{ type:Backup, id:0, path:, object:0, extra:39}
+2023-10-17 23:23:33.130420[Thread 0x00007f2d19c79ec0]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:39}
+2023-10-17 23:23:43.130307[Thread 0x00007f175bfff6c0]:process_task{ type:Backup, id:0, path:, object:0, extra:40}
+2023-10-17 23:23:43.133959[Thread 0x00007f2d19c79ec0]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:40}
+2023-10-17 23:23:53.130384[Thread 0x00007f175bfff6c0]:process_task{ type:Backup, id:0, path:, object:0, extra:41}
+2023-10-17 23:23:53.130532[Thread 0x00007f2d19c79ec0]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:41}
+2023-10-17 23:24:03.130365[Thread 0x00007f175bfff6c0]:process_task{ type:Backup, id:0, path:, object:0, extra:42}
+2023-10-17 23:24:03.130466[Thread 0x00007f2d19c79ec0]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:42}
+2023-10-17 23:24:13.130339[Thread 0x00007f175bfff6c0]:process_task{ type:Backup, id:0, path:, object:0, extra:43}
+2023-10-17 23:24:13.130449[Thread 0x00007f2d19c79ec0]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:43}
+2023-10-17 23:24:23.130334[Thread 0x00007f175bfff6c0]:process_task{ type:Backup, id:0, path:, object:0, extra:44}
+2023-10-17 23:24:23.130430[Thread 0x00007f2d19c79ec0]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:44}
+2023-10-17 23:24:33.130323[Thread 0x00007f175bfff6c0]:process_task{ type:Backup, id:0, path:, object:0, extra:45}
+2023-10-17 23:24:33.130420[Thread 0x00007f2d19c79ec0]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:45}
+2023-10-17 23:24:43.130351[Thread 0x00007f175bfff6c0]:process_task{ type:Backup, id:0, path:, object:0, extra:46}
+2023-10-17 23:24:43.130454[Thread 0x00007f2d19c79ec0]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:46}
+2023-10-17 23:24:53.130310[Thread 0x00007f175bfff6c0]:process_task{ type:Backup, id:0, path:, object:0, extra:47}
+2023-10-17 23:24:53.130394[Thread 0x00007f2d19c79ec0]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:47}
+2023-10-17 23:25:03.130366[Thread 0x00007f175bfff6c0]:process_task{ type:Backup, id:0, path:, object:0, extra:48}
+2023-10-17 23:25:03.130472[Thread 0x00007f2d19c79ec0]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:48}
+2023-10-17 23:25:13.130314[Thread 0x00007f175bfff6c0]:process_task{ type:Backup, id:0, path:, object:0, extra:49}
+2023-10-17 23:25:13.130390[Thread 0x00007f2d19c79ec0]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:49}
+2023-10-17 23:25:23.130359[Thread 0x00007f175bfff6c0]:process_task{ type:Backup, id:0, path:, object:0, extra:50}
+2023-10-17 23:25:23.130452[Thread 0x00007f2d19c79ec0]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:50}
+2023-10-17 23:25:33.130358[Thread 0x00007f175bfff6c0]:process_task{ type:Backup, id:0, path:, object:0, extra:51}
+2023-10-17 23:25:33.130457[Thread 0x00007f2d19c79ec0]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:51}
+2023-10-17 23:25:43.130364[Thread 0x00007f175bfff6c0]:process_task{ type:Backup, id:0, path:, object:0, extra:52}
+2023-10-17 23:25:43.130469[Thread 0x00007f2d19c79ec0]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:52}
+2023-10-17 23:25:53.130354[Thread 0x00007f175bfff6c0]:process_task{ type:Backup, id:0, path:, object:0, extra:53}
+2023-10-17 23:25:53.130460[Thread 0x00007f2d19c79ec0]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:53}
+2023-10-17 23:26:03.130324[Thread 0x00007f175bfff6c0]:process_task{ type:Backup, id:0, path:, object:0, extra:54}
+2023-10-17 23:26:03.130428[Thread 0x00007f2d19c79ec0]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:54}
+2023-10-17 23:26:13.130370[Thread 0x00007f175bfff6c0]:process_task{ type:Backup, id:0, path:, object:0, extra:55}
+2023-10-17 23:26:13.130482[Thread 0x00007f2d19c79ec0]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:55}
+2023-10-17 23:26:23.130381[Thread 0x00007f175bfff6c0]:process_task{ type:Backup, id:0, path:, object:0, extra:56}
+2023-10-17 23:26:23.130496[Thread 0x00007f2d19c79ec0]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:56}
+2023-10-17 23:26:33.130358[Thread 0x00007f175bfff6c0]:process_task{ type:Backup, id:0, path:, object:0, extra:57}
+2023-10-17 23:26:33.130456[Thread 0x00007f2d19c79ec0]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:57}
+2023-10-17 23:26:43.130340[Thread 0x00007f175bfff6c0]:process_task{ type:Backup, id:0, path:, object:0, extra:58}
+2023-10-17 23:26:43.130433[Thread 0x00007f2d19c79ec0]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:58}
+2023-10-17 23:26:53.130345[Thread 0x00007f175bfff6c0]:process_task{ type:Backup, id:0, path:, object:0, extra:59}
+2023-10-17 23:26:53.130446[Thread 0x00007f2d19c79ec0]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:59}
+2023-10-17 23:27:03.130352[Thread 0x00007f175bfff6c0]:process_task{ type:Backup, id:0, path:, object:0, extra:60}
+2023-10-17 23:27:03.130447[Thread 0x00007f2d19c79ec0]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:60}
+2023-10-17 23:27:11.861027[Thread 0x00007f2d19c79ec0]:operator(): received wxEVT_CLOSE_WINDOW, trigger save for window_mainframe
+2023-10-17 23:27:11.861376[Thread 0x00007f2d19c79ec0]:operator(): mainframe received close_widow event
+2023-10-17 23:27:11.861452[Thread 0x00007f2d19c79ec0]:set_backup_path, model 0x55e43b0fe000, id 7, remove previous backup /tmp/orcaslicer_model/Tue_Oct_17/23_17_07#224284#32
+2023-10-17 23:27:11.861459[Thread 0x00007f2d19c79ec0]:remove_backup /tmp/orcaslicer_model/Tue_Oct_17/23_17_07#224284#32, true
+2023-10-17 23:27:11.861473[Thread 0x00007f2d19c79ec0]:set_backup_path, model 0x55e43b0fe000, id 7, set backup to 
+2023-10-17 23:27:11.861485[Thread 0x00007f175bfff6c0]:process_task{ type:RemoveBackup, id:7, path:/tmp/orcaslicer_model/Tue_Oct_17/23_17_07#224284#32, object:0, extra:1}
+2023-10-17 23:27:11.861520[Thread 0x00007f2d19c79ec0]:Undo / Redo snapshot taken: Reset Project, Undo / Redo stack memory: 0MB Resident memory: 576MB; Shared memory: 195MB; Private memory: 382MB; Peak memory usage: 576MB
+2023-10-17 23:27:11.861589[Thread 0x00007f2d19c79ec0]:reset: current result id 4294967295 
+2023-10-17 23:27:11.861598[Thread 0x00007f2d19c79ec0]:update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+2023-10-17 23:27:11.861610[Thread 0x00007f2d19c79ec0]:update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+2023-10-17 23:27:11.861696[Thread 0x00007f2d19c79ec0]:update_slice_result_valid_state: plate 1 , update slice result from 0 to 0
+2023-10-17 23:27:11.861758[Thread 0x00007f2d19c79ec0]:calc_exclude_triangles:Unable to create exclude triangles
+2023-10-17 23:27:11.862933[Thread 0x00007f2d19c79ec0]:set_pos_and_size: plate_id 1, before, origin {420,0,0}, plate_width 350, plate_depth 350, plate_height 325
+2023-10-17 23:27:11.862955[Thread 0x00007f2d19c79ec0]:set_pos_and_size: with_instance_move 0, after, origin {420,0,0}, plate_width 350, plate_depth 350, plate_height 325
+2023-10-17 23:27:11.862965[Thread 0x00007f2d19c79ec0]:get_current_slice_result:m_current_plate 0, current_plate 0x55e43b1ffa00
+2023-10-17 23:27:11.862970[Thread 0x00007f2d19c79ec0]:stop, enter
+2023-10-17 23:27:11.865070[Thread 0x00007f2d19c79ec0]:object_list_changed: can_slice 0, model_fits= 1, export_in_progress 0, has_printable_instances 0 
+2023-10-17 23:27:11.865077[Thread 0x00007f2d19c79ec0]:get_enable_print_status: m_print_select 4, enable= 0 
+2023-10-17 23:27:11.865079[Thread 0x00007f2d19c79ec0]:update_slice_print_status m_slice_select 1: can_slice= 0, can_print 1, enable_slice 0, enable_print 0 
+2023-10-17 23:27:11.865095[Thread 0x00007f2d19c79ec0]:load_current_preset: enter
+2023-10-17 23:27:11.865930[Thread 0x00007f2d19c79ec0]:put_other_changes
+2023-10-17 23:27:11.874918[Thread 0x00007f2d19c79ec0]:load_current_preset: exit
+2023-10-17 23:27:11.874926[Thread 0x00007f2d19c79ec0]:load_current_preset: enter
+2023-10-17 23:27:11.875728[Thread 0x00007f2d19c79ec0]:put_other_changes
+2023-10-17 23:27:11.878924[Thread 0x00007f2d19c79ec0]:load_current_preset: exit
+2023-10-17 23:27:11.878933[Thread 0x00007f2d19c79ec0]:load_current_preset: enter
+2023-10-17 23:27:11.879064[Thread 0x00007f2d19c79ec0]:reset: current result id 4294967295 
+2023-10-17 23:27:11.879111[Thread 0x00007f2d19c79ec0]:reset_size:before size: plate_width 350, plate_depth 350, plate_height 325
+2023-10-17 23:27:11.879115[Thread 0x00007f2d19c79ec0]:reset_size:after size: plate_width 350, plate_depth 350, plate_height 325
+2023-10-17 23:27:11.879119[Thread 0x00007f2d19c79ec0]:PartPlate same shape, skip directly
+2023-10-17 23:27:11.890515[Thread 0x00007f2d19c79ec0]:put_other_changes
+2023-10-17 23:27:11.891154[Thread 0x00007f2d19c79ec0]:load_current_preset: exit
+2023-10-17 23:27:11.892680[Thread 0x00007f2d19c79ec0]:shutdownMainFrame::shutdown enter
+2023-10-17 23:27:11.893113[Thread 0x00007f2d19c79ec0]:GUI_App::shutdown enter
+2023-10-17 23:27:11.893185[Thread 0x00007f2d19c79ec0]:preset_folder: set to empty
+2023-10-17 23:27:11.893209[Thread 0x00007f2d19c79ec0]:Preset already present, not loading: Engineering Parts
+2023-10-17 23:27:11.893211[Thread 0x00007f2d19c79ec0]:Preset already present, not loading: Gridfinity
+2023-10-17 23:27:11.893227[Thread 0x00007f2d19c79ec0]:Preset already present, not loading: Polymaker Polylite PLA
+2023-10-17 23:27:11.893228[Thread 0x00007f2d19c79ec0]:Preset already present, not loading: Polymaker ASA
+2023-10-17 23:27:11.893230[Thread 0x00007f2d19c79ec0]:Preset already present, not loading: Polymaker Polyterra PLA
+2023-10-17 23:27:11.893241[Thread 0x00007f2d19c79ec0]:Preset already present, not loading: Bullet
+2023-10-17 23:27:11.893242[Thread 0x00007f2d19c79ec0]:Preset already present, not loading: Hazard 0.6mm
+2023-10-17 23:27:11.893247[Thread 0x00007f2d19c79ec0]:update_compatibility for all presets enter
+2023-10-17 23:27:11.893269[Thread 0x00007f2d19c79ec0]:update_compatibility for all presets exit
+2023-10-17 23:27:11.893760[Thread 0x00007f2d19c79ec0]:GUI_App::shutdown exit
+2023-10-17 23:27:11.893763[Thread 0x00007f2d19c79ec0]:shutdownMainFrame::shutdown exit
+2023-10-17 23:27:11.893764[Thread 0x00007f2d19c79ec0]:operator(): mainframe finished process close_widow event
+2023-10-17 23:27:11.904335[Thread 0x00007f2d19c79ec0]:process_ui_task{ type:RemoveBackup, id:7, path:/tmp/orcaslicer_model/Tue_Oct_17/23_17_07#224284#32, object:0, extra:1}
+2023-10-17 23:27:11.904477[Thread 0x00007f2d19c79ec0]:process_ui_task: remove all of backup path /tmp/orcaslicer_model/Tue_Oct_17/23_17_07#224284#32
+2023-10-17 23:27:11.904653[Thread 0x00007f2d19c79ec0]:get_enable_print_status: m_print_select 4, enable= 0 
+2023-10-17 23:27:11.904661[Thread 0x00007f2d19c79ec0]:update_slice_print_status m_slice_select 1: can_slice= 0, can_print 1, enable_slice 0, enable_print 0 
+2023-10-17 23:27:11.904667[Thread 0x00007f2d19c79ec0]:get_enable_print_status: m_print_select 4, enable= 0 
+2023-10-17 23:27:11.904669[Thread 0x00007f2d19c79ec0]:update_slice_print_status m_slice_select 1: can_slice= 0, can_print 1, enable_slice 0, enable_print 0 
+2023-10-17 23:27:11.904673[Thread 0x00007f2d19c79ec0]:get_enable_print_status: m_print_select 4, enable= 0 
+2023-10-17 23:27:11.904675[Thread 0x00007f2d19c79ec0]:update_slice_print_status m_slice_select 1: can_slice= 0, can_print 1, enable_slice 0, enable_print 0 
+2023-10-17 23:27:11.915569[Thread 0x00007f2d19c79ec0]:~WebViewPanel Start
+2023-10-17 23:27:11.916058[Thread 0x00007f2d19c79ec0]:~WebViewPanel End
+2023-10-17 23:27:11.970953[Thread 0x00007f2d19c79ec0]:~PrinterWebView Start
+2023-10-17 23:27:11.970964[Thread 0x00007f2d19c79ec0]:~PrinterWebView End
+2023-10-17 23:27:11.981794[Thread 0x00007f2d19c79ec0]:stop, enter
+2023-10-17 23:27:11.981822[Thread 0x00007f2d19c79ec0]:update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+2023-10-17 23:27:11.981836[Thread 0x00007f2d19c79ec0]:update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+2023-10-17 23:27:11.981853[Thread 0x00007f2d19c79ec0]:update_slice_result_valid_state: plate 1 , update slice result from 0 to 0
+2023-10-17 23:27:11.981957[Thread 0x00007f2d19c79ec0]:update_slice_result_valid_state: plate 1 , update slice result from 0 to 0
+2023-10-17 23:27:12.001547[Thread 0x00007f2d19c79ec0]:reset: current result id 0 
+2023-10-17 23:27:12.002172[Thread 0x00007f2d19c79ec0]:reset: current result id 4294967295 
+2023-10-17 23:27:12.002327[Thread 0x00007f2d19c79ec0]:reset: current result id 0 
+2023-10-17 23:27:12.018836[Thread 0x00007f2d19c79ec0]:~GUI_App: enter
+2023-10-17 23:27:12.018841[Thread 0x00007f2d19c79ec0]:~GUI_App: destroy app_config
+2023-10-17 23:27:12.018854[Thread 0x00007f2d19c79ec0]:~GUI_App: destroy preset_bundle
+2023-10-17 23:27:12.019590[Thread 0x00007f2d19c79ec0]:~GUI_App: destroy preset updater
+2023-10-17 23:27:12.019593[Thread 0x00007f2d19c79ec0]:~GUI_App: exit
