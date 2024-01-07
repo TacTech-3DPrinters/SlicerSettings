@@ -26,5 +26,6 @@
     "retraction_length": [
         "0.4"
     ],
+    "support_multi_bed_types": "1",
     "version": "1.5.1.2"
 }

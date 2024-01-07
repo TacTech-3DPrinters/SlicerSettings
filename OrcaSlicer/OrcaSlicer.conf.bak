@@ -4,8 +4,10 @@
         "associate_3mf": true,
         "associate_step": false,
         "associate_stl": true,
+        "auto_calculate": true,
         "backup_interval": "10",
         "backup_switch": true,
+        "check_stable_update_only": false,
         "curr_bed_type": "3",
         "dark_color_mode": "1",
         "default_page": "1",
@@ -21,7 +23,7 @@
         "iot_environment": "3",
         "keyboard_supported": "none/alt/control/shift",
         "language": "en_GB",
-        "last_backup_path": "C:\\Users\\alext\\AppData\\Local\\Temp/orcaslicer_model/Sun_Jan_07/11_26_05#38740#32",
+        "last_backup_path": "C:\\Users\\alext\\AppData\\Local\\Temp/orcaslicer_model/Sun_Jan_07/11_47_37#48760#49",
         "max_recent_count": "18",
         "mouse_supported": "mouse left/mouse middle/mouse right",
         "mouse_wheel": "0",
@@ -68,8 +70,9 @@
         "use_legacy_3DConnexion": true,
         "use_perspective_camera": true,
         "user_mode": "advanced",
-        "version": "01.07.07.89",
-        "window_mainframe": "2004; 755; 1789; 1357; 0",
+        "version": "01.08.02.56",
+        "window_layout": "layout2|name=sidebar;caption=;state=1996;dir=4;layer=0;row=0;pos=0;prop=100000;bestw=420;besth=900;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=main;caption=;state=256;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=20;besth=20;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=20|dock_size(4,0,0)=422|",
+        "window_mainframe": "1722; 754; 1789; 1357; 0",
         "zoom_to_mouse": false,
         "zoom_view": "none/mouse left"
     },
@@ -123,7 +126,7 @@
     "firstguide": {
         "finish": true
     },
-    "header": "OrcaSlicer 1.8.0",
+    "header": "OrcaSlicer 1.9.0",
     "models": [
         {
             "model": "Creality Ender-3",
@@ -145,7 +148,7 @@
         "invert_z": "0",
         "rotation_deadzone": "0",
         "rotation_speed": "1",
-        "swap_yz": "0",
+        "swap_yz": "1",
         "translation_deadzone": "0",
         "translation_speed": "1",
         "zoom_speed": "1"
@@ -260,4 +263,4 @@
         "11": "/tmp/.mount_OrcaSlHN1XYh/resources/calib/filament_flow/flowrate-test-pass1.3mf"
     }
 }
-# MD5 checksum 4C001DC0DE212A3EE606D5EB19F0F0A0
+# MD5 checksum 1C636FC865B2891CB973CEC4A3648A92
