@@ -44,7 +44,7 @@
     "ironing_type": "no ironing",
     "layer_height": "0.24",
     "reduce_infill_retraction": "1",
-    "filename_format": "{input_filename_base}_{filament_type[0]}_{print_time}.gcode",
+    "filename_format": "{input_filename_base}_{filament_type[initial_tool]}_{print_time}.gcode",
     "detect_overhang_wall": "1",
     "overhang_1_4_speed": "0",
     "overhang_2_4_speed": "20",
@@ -99,7 +99,7 @@
     "travel_speed": "150",
     "enable_prime_tower": "0",
     "wipe_tower_no_sparse_layers": "0",
-    "prime_tower_width": "35",
+    "prime_tower_width": "60",
     "xy_hole_compensation": "0",
     "xy_contour_compensation": "0",
 	"compatible_printers": [

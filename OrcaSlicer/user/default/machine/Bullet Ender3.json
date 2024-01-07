@@ -3,28 +3,59 @@
         "0"
     ],
     "from": "User",
-    "gcode_flavor": "klipper",
-    "inherits": "Creality Ender-3 V2 0.4 nozzle",
+    "inherits": "MyKlipper 0.4 nozzle",
     "is_custom_defined": "0",
     "machine_end_gcode": "END_PRINT",
-    "machine_start_gcode": "START_PRINT BED_TEMP=[first_layer_bed_temperature] EXTRUDER_TEMP=[first_layer_temperature]",
+    "machine_max_acceleration_extruding": [
+        "500",
+        "20000"
+    ],
+    "machine_max_acceleration_retracting": [
+        "1000",
+        "5000"
+    ],
+    "machine_max_acceleration_x": [
+        "500",
+        "20000"
+    ],
+    "machine_max_acceleration_y": [
+        "500",
+        "20000"
+    ],
+    "machine_max_acceleration_z": [
+        "100",
+        "200"
+    ],
+    "machine_max_speed_e": [
+        "60",
+        "25"
+    ],
+    "machine_max_speed_z": [
+        "10",
+        "12"
+    ],
+    "machine_start_gcode": "; Need this for slicer so it doesn't inject its own\nM104 S0 ; Hotend temperature\nM140 S0 ; Bed temperature\n\nSTART_PRINT BED_TEMP=[first_layer_bed_temperature] EXTRUDER_TEMP=[first_layer_temperature]\n\n;Starting Line\nG1 X2 Y10 F3000\nG1 Z0.28 F240\nG92 E0.0\nG1 X2.0 Y190 E15.0 F1500.0 ; intro line\nG1 X2.3 F5000\nG1 X2.3 Y10 E30 F1200.0 ; intro line\nG92 E0.0",
     "max_layer_height": [
         "0.4"
-    ],
-    "min_layer_height": [
-        "0.12"
     ],
     "name": "Bullet Ender3",
     "nozzle_diameter": [
         "0.6"
     ],
-    "printable_height": "200",
+    "nozzle_type": "brass",
+    "print_host": "bullet.printer.alextac.com",
+    "printable_area": [
+        "3x3",
+        "228x3",
+        "228x228",
+        "3x228"
+    ],
     "printer_settings_id": "Bullet Ender3",
-    "retract_before_wipe": [
-        "0%"
+    "retraction_minimum_travel": [
+        "2"
     ],
-    "retraction_length": [
-        "1"
+    "retraction_speed": [
+        "60"
     ],
-    "version": "1.6.2.0"
+    "version": "1.5.1.2"
 }

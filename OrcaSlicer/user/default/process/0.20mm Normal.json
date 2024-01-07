@@ -1,0 +1,16 @@
+{
+    "from": "User",
+    "inherits": "0.20mm Standard @MyKlipper",
+    "initial_layer_line_width": "100%",
+    "inner_wall_line_width": "100%",
+    "internal_solid_infill_line_width": "100%",
+    "is_custom_defined": "0",
+    "line_width": "100%",
+    "name": "0.20mm Normal",
+    "outer_wall_line_width": "100%",
+    "print_settings_id": "0.20mm Normal",
+    "sparse_infill_line_width": "100%",
+    "support_line_width": "100%",
+    "top_surface_line_width": "100%",
+    "version": "1.8.0.0"
+}

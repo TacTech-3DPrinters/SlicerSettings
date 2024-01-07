@@ -1,0 +1,13 @@
+{
+    "filament_settings_id": [
+        "GoldSilkPLA"
+    ],
+    "from": "User",
+    "inherits": "My Generic PLA",
+    "is_custom_defined": "0",
+    "name": "GoldSilkPLA",
+    "nozzle_temperature": [
+        "200"
+    ],
+    "version": "1.8.0.0"
+}

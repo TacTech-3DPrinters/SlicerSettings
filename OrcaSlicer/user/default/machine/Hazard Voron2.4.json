@@ -18,7 +18,9 @@
     "nozzle_diameter": [
         "0.6"
     ],
+    "nozzle_type": "brass",
     "print_host": "hazard.printer.alextac.com",
+    "printable_height": "300",
     "printer_settings_id": "Hazard Voron2.4",
     "printhost_apikey": "02893510d7444a7aa729c1c3a83aeec3",
     "retraction_length": [
