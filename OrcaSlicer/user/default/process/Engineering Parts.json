@@ -1,6 +1,5 @@
 {
     "bottom_shell_layers": "5",
-    "brim_type": "no_brim",
     "from": "User",
     "inherits": "0.20mm Standard @Voron",
     "initial_layer_line_width": "100%",

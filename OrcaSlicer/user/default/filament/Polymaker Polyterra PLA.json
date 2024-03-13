@@ -9,6 +9,12 @@
     "inherits": "Voron Generic PLA",
     "is_custom_defined": "0",
     "name": "Polymaker Polyterra PLA",
+    "nozzle_temperature": [
+        "215"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "215"
+    ],
     "slow_down_layer_time": [
         "0"
     ],

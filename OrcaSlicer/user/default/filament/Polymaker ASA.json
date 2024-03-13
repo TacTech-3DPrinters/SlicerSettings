@@ -1,4 +1,7 @@
 {
+    "fan_cooling_layer_time": [
+        "35"
+    ],
     "filament_max_volumetric_speed": [
         "27"
     ],
@@ -9,26 +12,8 @@
         "ASA"
     ],
     "from": "User",
-    "hot_plate_temp": [
-        "95"
-    ],
-    "hot_plate_temp_initial_layer": [
-        "100"
-    ],
     "inherits": "Voron Generic ABS",
     "is_custom_defined": "0",
     "name": "Polymaker ASA",
-    "nozzle_temperature": [
-        "250"
-    ],
-    "nozzle_temperature_initial_layer": [
-        "250"
-    ],
-    "nozzle_temperature_range_high": [
-        "260"
-    ],
-    "slow_down_layer_time": [
-        "0"
-    ],
     "version": "1.6.5.2"
 }
